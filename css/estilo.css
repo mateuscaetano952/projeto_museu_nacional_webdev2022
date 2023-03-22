@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url(/img/fundo.png) repeat-x;
+    background: url(/img/fundo.png) repeat-x #ffffff;
 }
 
 #container-principal{
@@ -52,3 +52,32 @@ nav ul li a:hover{
     color: green;
     border-bottom: 1px solid rgb(68, 67, 67);   
 }
+
+.imagens-header{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.imagens-header-img1{
+    float: left;
+}
+
+.imagens-header-img2{
+    float: right;
+}
+
+/*Conteúdo*/
+#conteudo-primario{
+    float: left;
+    border: 1px solid rgb(47, 0, 255);
+    width: 65%;
+}
+
+
+#conteudo-lateral{
+    border: 1px solid rgb(64, 255, 0);
+    float: right;
+    width: 32%;
+}
+   
