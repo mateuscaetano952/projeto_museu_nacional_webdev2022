@@ -109,5 +109,41 @@ nav ul li a:hover{
 }
 
 /*Conteudo lateral*/
+.conteudo-lateral-cadastro div{
+    padding: 20px;
+    font-size: 0.8em;
+    background: #cdc8b1;
+}
 
+.conteudo-lateral-cadastro h2{
+    color: #8a5923;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
+.conteudo-lateral-cadastro input{
+    padding: 5px;
+}
+
+.conteudo-lateral-cadastro input:focus{
+    border: 1px solid rgb(0, 255, 247);
+}
+
+.conteudo-lateral-cadastro input[type="date"]{
+    width: 110px;
+    
+}
+
+.conteudo-lateral-cadastro input[type="number"]{
+    width: 40px;
+    
+}
+
+.conteudo-lateral-cadastro button{
+    width: 300px;
+    background-color: #9b9271;
+    padding: 12px;
+    color: #fff;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
