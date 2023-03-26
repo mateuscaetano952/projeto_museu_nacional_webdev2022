@@ -165,10 +165,20 @@ nav ul li a:hover{
 }
 
 /*Roda pe*/
-footer{
-    border: 1px solid red;
-}
 
-footer .navbar-footer{
-    
-}
+footer .navbar-footer, .direitos-autorais{
+    text-align: center; 
+    font-size: 0.9em;
+    margin: 10px;
+} 
+
+footer a{
+    font-size: 0.9em;
+    padding: 4px;
+    color: #a2600b;
+}    
+
+footer a:hover{
+    color: green;
+}  
+
