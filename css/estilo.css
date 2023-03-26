@@ -75,7 +75,6 @@ nav ul li a:hover{
 
 
 #conteudo-lateral{
-    border: 1px solid rgb(64, 255, 0);
     float: right;
     width: 32%;
 }
@@ -146,4 +145,30 @@ nav ul li a:hover{
     color: #fff;
     font-size: 1.1em;
     margin-top: 10px;
+}
+
+.conteudo-lateral-galeriaDeFotos{
+    padding: 10px;
+}
+
+.conteudo-lateral-galeriaDeFotos div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.foto-Galeria{
+    background-image: url(/img/fundo-foto.png) ;
+    display: block;
+    padding: 15px;
+}
+
+/*Roda pe*/
+footer{
+    border: 1px solid red;
+}
+
+footer .navbar-footer{
+    
 }
